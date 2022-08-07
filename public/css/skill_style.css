@@ -1,0 +1,19 @@
+.skill-section{
+    width: 80vw;
+    min-height: 100vh;
+    margin-left: 20vw;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px 40px;
+    color: #fff;
+}
+
+.each-skill{
+    width: 400px;
+    padding: 20px 10px;
+    margin: 30px 80px 30px 0;
+}

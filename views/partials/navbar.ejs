@@ -1,0 +1,11 @@
+
+    <div class="navbar-section">
+        <div class="profile-details-div">
+            <img class="profile-img" src="images/prsn-img.png" alt="">
+            <h5 class="profile-name"><%= name%></h5>
+        </div>
+        <div class="home <% if(page_title == 'Home') { %> active <% } %>"><a class="link-div" href="/">Home</a></div>
+        <div class="service  <% if(page_title == 'Service') { %> active <% } %>"><a class="link-div" href="/service">Service</a></div>
+        <div class="skill <% if(page_title == 'Skill') { %> active <% } %>"><a class="link-div" href="/skill">Skill</a></div>
+        <div class="contact <% if(page_title == 'Contact') { %> active <% } %>"><a class="link-div" href="/contact">Contact</a></div>
+    </div>

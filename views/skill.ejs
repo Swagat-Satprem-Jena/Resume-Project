@@ -1,0 +1,13 @@
+<%- include('./partials/topbasic.ejs', {page_title: 'Resume - Skill'}) %>
+<%- include('./partials/navbar.ejs', {page_title: 'Skill'}) %>
+<div class="skill-section">
+    <% services.forEach((value) => { %>
+    <div class="each-skill">
+        <h3 class="skill-name"><%= value.s_n %></h3>
+        <div class="progress">
+            <div class="<%= value.c %>" role="progressbar" aria-valuenow="<%= value.p %>" aria-valuemin="0" aria-valuemax="100" style="width: <%= value.p %>%"><%= value.p %>%</div>
+        </div>
+    </div>
+    <% }) %>
+</div>
+<%- include('./partials/bottombasic.ejs') %>

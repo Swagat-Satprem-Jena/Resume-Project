@@ -1,0 +1,12 @@
+<%- include('./partials/topbasic.ejs', {page_title: 'Resume - Service'}) %>
+<%- include('./partials/navbar.ejs', {page_title: 'Service'}) %>
+<div class="service-section">
+    <% services.forEach((value) => { %>
+    <div class="each-service">
+        <i class="<%= value.s_i%> icon-color"></i>
+        <h3 class="service-name"><%= value.s_n%></h3>
+        <p class="service-details"><%= value.s_d%></p>
+    </div>
+    <% }) %>
+</div>
+<%- include('./partials/bottombasic.ejs') %>

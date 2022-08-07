@@ -1,0 +1,29 @@
+<%- include('./partials/topbasic.ejs', {page_title: 'Resume - Contact'}) %>
+<%- include('./partials/navbar.ejs', {page_title: 'Contact'}) %>
+<div class="contact-section">
+    <h6 class="contact-heading">Do you have any questions? Please donot hesitate to contact. I will come back to you within a matter of hours to help you.</h6>
+    <div class="name-email-loc-div">
+        <input type="text" class="form-control" id="your-name" placeholder="Your Name">
+        <input type="email" class="form-control" id="your-email" placeholder="Your Email">
+        <div class="location">
+            <i class="fa-solid fa-location-dot fa-2x mb-3" style="color: #5BB318;"></i>
+            <p>Ranchi, Jharkhand, India</p>
+        </div>
+    </div>
+    <div class="sub-number-div">
+        <input type="text" class="form-control" id="your-subject" placeholder="Your Subject">
+        <div class="telephone">
+            <i class="fa-solid fa-phone-flip fa-2x mb-3" style="color: #5BB318;"></i>
+            <p>+91 9000000000</p>
+        </div>
+    </div>
+    <div class="message-email-div">
+        <textarea class="form-control" id="your-message" rows="3" placeholder="Your Message"></textarea>
+        <div class="mail">
+            <i class="fa-solid fa-envelope fa-2x mb-3" style="color: #5BB318;"></i>
+            <p>contact@email.com</p>
+        </div>
+    </div>
+    <button class="btn btn-warning">Submit</button>
+</div>
+<%- include('./partials/bottombasic.ejs') %>

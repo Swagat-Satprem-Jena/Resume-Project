@@ -1,0 +1,56 @@
+.contact-section{
+    width: 80vw;
+    min-height: 100vh;
+    margin-left: 20vw;
+    background: black;
+    color: #fff;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.contact-heading{
+    margin: 20px 20px 50px 20px;
+}
+
+.name-email-loc-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.sub-number-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.message-email-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.location, .telephone, .mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+}
+
+input, textarea{
+    /* width: 80%; */
+    margin-right: 30px;
+}
